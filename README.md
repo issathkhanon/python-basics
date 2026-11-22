@@ -19,3 +19,14 @@ Open the lessons in order and run each code cell with Shift+Enter.
 ## 03 — Python functions
 
 9. [Functions](03_python_functions/09_learn_functions.ipynb) — defining functions, return values, lambda, map, and filter
+
+## 04 — Files and exceptions
+
+10. [Files](04_python_files_and_exceptions/10_learn_files.ipynb) — reading, writing, and appending text files
+11. [Exceptions](04_python_files_and_exceptions/11_learn_exceptions.ipynb) — catching errors, else, and finally
+
+## 05 — Packages and modules
+
+12. [Imports](05_python_packages_and_modules/12_learn_imports.ipynb) — using math, numpy, and random
+13. [Packages](05_python_packages_and_modules/13_learn_packages.ipynb) — your own module, plus two terminal scripts
+14. [Standard library](05_python_packages_and_modules/14_learn_standard_library.ipynb) — files, JSON, CSV, dates, and text patterns

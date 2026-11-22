@@ -15,3 +15,7 @@ Open the lessons in order and run each code cell with Shift+Enter.
 6. [Tuples](02_python_data_structures/06_learn_tuples.ipynb) — ordered collections you treat as fixed
 7. [Sets](02_python_data_structures/07_learn_sets.ipynb) — unique items, with no position
 8. [Dictionaries](02_python_data_structures/08_learn_dictionaries.ipynb) — values stored under keys
+
+## 03 — Python functions
+
+9. [Functions](03_python_functions/09_learn_functions.ipynb) — defining functions, return values, lambda, map, and filter

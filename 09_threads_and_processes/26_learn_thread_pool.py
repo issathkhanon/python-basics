@@ -15,6 +15,13 @@ submit runs one call and returns a future. result() waits for that
 call. Use submit for a single order, or when each call needs different
 arguments. map is the shorter form when every call uses the same
 function and the next value from a sequence.
+
+    tea, coffee, juice, cake, biscuit, fruit
+                    |
+                3 workers
+                    |
+         map returns each order in the same order
+         submit runs the one water order
 """
 
 import time
@@ -28,9 +35,12 @@ def prepare_order(name):
 
 orders = ["tea", "coffee", "juice", "cake", "biscuit", "fruit"]
 
+# with closes the pool at the end of this block
 with ThreadPoolExecutor(max_workers=3) as executor:
+    # map calls prepare_order once for each name, in this order
     for ready in executor.map(prepare_order, orders):
         print(ready)
 
+    # submit is one call. result() waits for the returned text
     one_order = executor.submit(prepare_order, "water")
     print(one_order.result())

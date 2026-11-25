@@ -11,6 +11,10 @@ argument.
 
 These calls spend their time waiting for a website, so threads are a
 good fit. The with block shuts the pool down after the pages return.
+
+    url 1 --+
+    url 2 --+-- map --> fetch_page(one full url) --> print the length
+    url 3 --+
 """
 
 from concurrent.futures import ThreadPoolExecutor
@@ -27,12 +31,14 @@ urls = [
 
 
 def fetch_page(url):
+    # one full URL arrives here, not one character at a time
     response = requests.get(url, timeout=30)
     soup = BeautifulSoup(response.content, "html.parser")
     return f"{len(soup.text)} characters from {url}"
 
 
 with ThreadPoolExecutor(max_workers=3) as executor:
+    # map passes urls[0], then urls[1], then urls[2]
     for line in executor.map(fetch_page, urls):
         print(line)
 

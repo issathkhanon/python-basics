@@ -47,7 +47,7 @@ Open the lessons in order and run each code cell with Shift+Enter.
 
 ## 08 — Logging
 
-23. [Logging](08_python_logging/23_logging.ipynb) — debug, info, warning, error, and critical messages in `app.log`
+23. [Logging](08_python_logging/23_logging.ipynb) — tea-shop messages from debug through critical, saved in `app.log`
 
 ## 09 — Threads and processes
 

@@ -12,6 +12,13 @@ because the child process needs to import them.
 
 Each job pauses for one second, three times. Together they finish in
 about three seconds.
+
+    this file
+        |
+        +-- if __name__ == "__main__"
+                serve_tea   -- start --+
+                                       +-- join
+                serve_snack -- start --+
 """
 
 import multiprocessing
@@ -30,6 +37,8 @@ def serve_snack():
         print(f"snack {snack}")
 
 
+# This file is the main program only when you run it.
+# A child process imports the file, so this name is not "__main__" there.
 if __name__ == "__main__":
     started = time.time()
     tea_worker = multiprocessing.Process(target=serve_tea)

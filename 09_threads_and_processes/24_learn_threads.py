@@ -11,6 +11,10 @@ if __name__ == "__main__".
 
 Each worker pauses for one second, three times. Together they finish
 in about three seconds. One after the other would take about six.
+
+    serve_tea   -- start --+
+                           +-- both run, then join
+    serve_snack -- start --+
 """
 
 import threading
@@ -30,10 +34,13 @@ def serve_snack():
 
 
 started = time.time()
+# target is the function this thread will run
 tea_worker = threading.Thread(target=serve_tea)
 snack_worker = threading.Thread(target=serve_snack)
+# start lets both workers run together
 tea_worker.start()
 snack_worker.start()
+# join waits here until that worker has finished
 tea_worker.join()
 snack_worker.join()
 seconds = round(time.time() - started)

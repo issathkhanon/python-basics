@@ -44,3 +44,17 @@ Open the lessons in order and run each code cell with Shift+Enter.
 20. [Iterators](07_iterators_generators_and_decorators/20_learn_iterators.ipynb) — one song at a time with `next`
 21. [Generators](07_iterators_generators_and_decorators/21_learn_generators.ipynb) — `yield` pauses a function and continues later
 22. [Decorators](07_iterators_generators_and_decorators/22_learn_decorators.ipynb) — extra steps around a function, including a decorator that takes an argument
+
+## 08 — Logging
+
+23. [Logging](08_python_logging/23_logging.ipynb) — debug, info, warning, error, and critical messages in `app.log`
+
+## 09 — Threads and processes
+
+Run these files from the terminal with `python filename.py`.
+
+24. [Threads](09_threads_and_processes/24_learn_threads.py) — two workers in one program, started and joined
+25. [Processes](09_threads_and_processes/25_learn_processes.py) — the same two jobs in separate processes
+26. [Thread pool](09_threads_and_processes/26_learn_thread_pool.py) — `map` for many orders and `submit` for one order
+27. [Process pool](09_threads_and_processes/27_learn_process_pool.py) — `ProcessPoolExecutor` inside `if __name__ == "__main__"`
+28. [Fetching pages](09_threads_and_processes/28_learn_fetching_pages.py) — one URL per call, and the pool closes with `with`

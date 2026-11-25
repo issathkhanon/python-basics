@@ -51,10 +51,10 @@ Open the lessons in order and run each code cell with Shift+Enter.
 
 ## 09 — Threads and processes
 
-Run these files from the terminal with `python filename.py`.
+Open the notebook for the picture. Then run the matching script from that folder with `python filename.py`.
 
-24. [Threads](09_threads_and_processes/24_learn_threads.py) — two workers in one program, started and joined
-25. [Processes](09_threads_and_processes/25_learn_processes.py) — the same two jobs in separate processes
-26. [Thread pool](09_threads_and_processes/26_learn_thread_pool.py) — `map` for many orders and `submit` for one order
-27. [Process pool](09_threads_and_processes/27_learn_process_pool.py) — `ProcessPoolExecutor` inside `if __name__ == "__main__"`
-28. [Fetching pages](09_threads_and_processes/28_learn_fetching_pages.py) — one URL per call, and the pool closes with `with`
+24. [Threads](09_threads_and_processes/24_learn_threads.ipynb) — two workers start together, and `join` waits
+25. [Processes](09_threads_and_processes/25_learn_processes.ipynb) — separate programs, started only when you run the file
+26. [Thread pool](09_threads_and_processes/26_learn_thread_pool.ipynb) — `map` for many tasks and `submit` for one call
+27. [Process pool](09_threads_and_processes/27_learn_process_pool.ipynb) — the same pool, with one process per task
+28. [One value per call](09_threads_and_processes/28_learn_fetching_pages.ipynb) — `map` passes one whole value into each call

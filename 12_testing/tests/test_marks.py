@@ -5,7 +5,13 @@ From the 12_testing folder:
     pytest
 """
 
+import sys
+from pathlib import Path
+
 import pytest
+
+# marks.py is one folder up, in 12_testing
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from marks import MarkBook
 

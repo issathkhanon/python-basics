@@ -62,3 +62,9 @@ Open the notebook for the picture. Then run the matching script from that folder
 ## 10 — Data validation
 
 29. [Pydantic](10_data_validation/29_learn_pydantic.ipynb) — a student form checks the name, age, mark, and address
+
+## 11 — A web page with Flask
+
+Open the notebook for the picture. Then run the script from that folder with `python 30_learn_flask.py`.
+
+30. [Flask](11_web_with_flask/30_learn_flask.ipynb) — a class register with a page, a form, and a JSON list

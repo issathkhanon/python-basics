@@ -58,3 +58,22 @@ Open the notebook for the picture. Then run the matching script from that folder
 26. [Thread pool](09_threads_and_processes/26_learn_thread_pool.ipynb) — `map` for many tasks and `submit` for one call
 27. [Process pool](09_threads_and_processes/27_learn_process_pool.ipynb) — the same pool, with one process per task
 28. [One value per call](09_threads_and_processes/28_learn_fetching_pages.ipynb) — `map` passes one whole value into each call
+
+## 10 — Data validation
+
+29. [Pydantic](10_data_validation/29_learn_pydantic.ipynb) — a student form checks the name, age, mark, and address
+
+## 11 — A web page with Flask
+
+Open the notebook for the picture. Then run the script from that folder with `python 30_learn_flask.py`.
+
+30. [Flask](11_web_with_flask/30_learn_flask.ipynb) — a class register with a page, a form, and a JSON list
+
+## 12 — Testing
+
+31. [pytest](12_testing/31_learn_pytest.ipynb) — a `MarkBook` for Issath, created in a fixture, with tests for `add`, `total`, and `passed`
+
+## 13 — uv and Ruff
+
+32. [uv](13_uv_and_ruff/32_learn_uv.ipynb) — install uv, then `uv run` uses the project environment
+33. [Ruff](13_uv_and_ruff/33_learn_ruff.ipynb) — check a score file, apply `--fix`, then format the tidy version

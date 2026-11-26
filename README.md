@@ -1,6 +1,10 @@
 # Python Basics
 
-Open the lessons in order and run each code cell with Shift+Enter.
+Open the lessons in order. The setup lesson is a list of terminal commands. Later lessons run in a notebook with Shift+Enter.
+
+## 00 — Setup
+
+0. [Setup](00_setup/00_learn_setup.ipynb) — Visual Studio Code, Python, a hello-world virtual environment, then Cursor and Git through the first push, branch, and merge conflict
 
 ## 01 — Python fundamentals
 

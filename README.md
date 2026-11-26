@@ -72,3 +72,8 @@ Open the notebook for the picture. Then run the script from that folder with `py
 ## 12 — Testing
 
 31. [pytest](12_testing/31_learn_pytest.ipynb) — a `MarkBook` for Issath, created in a fixture, with tests for `add`, `total`, and `passed`
+
+## 13 — uv and Ruff
+
+32. [uv](13_uv_and_ruff/32_learn_uv.ipynb) — install uv, then `uv run` uses the project environment
+33. [Ruff](13_uv_and_ruff/33_learn_ruff.ipynb) — check a score file, apply `--fix`, then format the tidy version

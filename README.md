@@ -4,7 +4,7 @@ Open the lessons in order. The setup lesson is a list of terminal commands. Late
 
 ## 00 — Setup
 
-0. [Setup](00_setup/00_learn_setup.ipynb) — Visual Studio Code, Python, a hello-world virtual environment, then Cursor and Git through the first push, branch, and merge conflict
+0. [Setup](00_python_setup/00_learn_setup.ipynb) — Visual Studio Code, Python, a hello-world virtual environment, then Cursor and Git through the first push, branch, and merge conflict
 
 ## 01 — Python fundamentals
 
@@ -45,9 +45,9 @@ Open the lessons in order. The setup lesson is a list of terminal commands. Late
 
 ## 07 — Iterators, generators, and decorators
 
-20. [Iterators](07_iterators_generators_and_decorators/20_learn_iterators.ipynb) — one song at a time with `next`
-21. [Generators](07_iterators_generators_and_decorators/21_learn_generators.ipynb) — `yield` pauses a function and continues later
-22. [Decorators](07_iterators_generators_and_decorators/22_learn_decorators.ipynb) — extra steps around a function, including a decorator that takes an argument
+20. [Iterators](07_python_iterators_generators_and_decorators/20_learn_iterators.ipynb) — one song at a time with `next`
+21. [Generators](07_python_iterators_generators_and_decorators/21_learn_generators.ipynb) — `yield` pauses a function and continues later
+22. [Decorators](07_python_iterators_generators_and_decorators/22_learn_decorators.ipynb) — extra steps around a function, including a decorator that takes an argument
 
 ## 08 — Logging
 
@@ -57,27 +57,27 @@ Open the lessons in order. The setup lesson is a list of terminal commands. Late
 
 Open the notebook for the picture. Then run the matching script from that folder with `python filename.py`.
 
-24. [Threads](09_threads_and_processes/24_learn_threads.ipynb) — two workers start together, and `join` waits
-25. [Processes](09_threads_and_processes/25_learn_processes.ipynb) — separate programs, started only when you run the file
-26. [Thread pool](09_threads_and_processes/26_learn_thread_pool.ipynb) — `map` for many tasks and `submit` for one call
-27. [Process pool](09_threads_and_processes/27_learn_process_pool.ipynb) — the same pool, with one process per task
-28. [One value per call](09_threads_and_processes/28_learn_fetching_pages.ipynb) — `map` passes one whole value into each call
+24. [Threads](09_python_threads_and_processes/24_learn_threads.ipynb) — two workers start together, and `join` waits
+25. [Processes](09_python_threads_and_processes/25_learn_processes.ipynb) — separate programs, started only when you run the file
+26. [Thread pool](09_python_threads_and_processes/26_learn_thread_pool.ipynb) — `map` for many tasks and `submit` for one call
+27. [Process pool](09_python_threads_and_processes/27_learn_process_pool.ipynb) — the same pool, with one process per task
+28. [One value per call](09_python_threads_and_processes/28_learn_fetching_pages.ipynb) — `map` passes one whole value into each call
 
 ## 10 — Data validation
 
-29. [Pydantic](10_data_validation/29_learn_pydantic.ipynb) — a student form checks the name, age, mark, and address
+29. [Pydantic](10_python_data_validation/29_learn_pydantic.ipynb) — a student form checks the name, age, mark, and address
 
 ## 11 — A web page with Flask
 
 Open the notebook for the picture. Then run the script from that folder with `python 30_learn_flask.py`.
 
-30. [Flask](11_web_with_flask/30_learn_flask.ipynb) — a class register with a page, a form, and a JSON list
+30. [Flask](11_python_web_with_flask/30_learn_flask.ipynb) — a class register with a page, a form, and a JSON list
 
 ## 12 — Testing
 
-31. [pytest](12_testing/31_learn_pytest.ipynb) — a `MarkBook` for Issath, created in a fixture, with tests for `add`, `total`, and `passed`
+31. [pytest](12_python_testing/31_learn_pytest.ipynb) — a `MarkBook` for Issath, created in a fixture, with tests for `add`, `total`, and `passed`
 
 ## 13 — uv and Ruff
 
-32. [uv](13_uv_and_ruff/32_learn_uv.ipynb) — install uv, then `uv run` uses the project environment
-33. [Ruff](13_uv_and_ruff/33_learn_ruff.ipynb) — check a score file, apply `--fix`, then format the tidy version
+32. [uv](13_python_uv_and_ruff/32_learn_uv.ipynb) — install uv, then `uv run` uses the project environment
+33. [Ruff](13_python_uv_and_ruff/33_learn_ruff.ipynb) — check a score file, apply `--fix`, then format the tidy version

@@ -1,6 +1,6 @@
 """Checks for the mark book.
 
-From the 12_testing folder:
+From the 12_python_testing folder:
 
     pytest
 """
@@ -10,7 +10,7 @@ from pathlib import Path
 
 import pytest
 
-# marks.py is one folder up, in 12_testing
+# marks.py is one folder up, in 12_python_testing
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from marks import MarkBook

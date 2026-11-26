@@ -68,3 +68,7 @@ Open the notebook for the picture. Then run the matching script from that folder
 Open the notebook for the picture. Then run the script from that folder with `python 30_learn_flask.py`.
 
 30. [Flask](11_web_with_flask/30_learn_flask.ipynb) — a class register with a page, a form, and a JSON list
+
+## 12 — Testing
+
+31. [pytest](12_testing/31_learn_pytest.ipynb) — a `MarkBook` for Issath, created in a fixture, with tests for `add`, `total`, and `passed`
